@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\demo\jlx\jlx\bin\Debug\jlx.dll
+C:\Users\Administrator\Desktop\demo\jlx\jlx\bin\Debug\jlx.pdb
+C:\Users\Administrator\Desktop\demo\jlx\jlx\obj\Debug\jlx.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\demo\jlx\jlx\obj\Debug\jlx.dll
+C:\Users\Administrator\Desktop\demo\jlx\jlx\obj\Debug\jlx.pdb
+C:\Users\Administrator\Desktop\jlx\jlx\bin\Debug\jlx.dll
+C:\Users\Administrator\Desktop\jlx\jlx\bin\Debug\jlx.pdb
+C:\Users\Administrator\Desktop\jlx\jlx\obj\Debug\jlx.dll
+C:\Users\Administrator\Desktop\jlx\jlx\obj\Debug\jlx.pdb
+C:\Users\Administrator\Desktop\jlx\jlx\bin\Debug\jlx.XML
+H:\jlx\jlx\bin\Debug\jlx.XML
+H:\jlx\jlx\bin\Debug\jlx.dll
+H:\jlx\jlx\bin\Debug\jlx.pdb
+H:\jlx\jlx\obj\Debug\jlx.csprojResolveAssemblyReference.cache
+H:\jlx\jlx\obj\Debug\jlx.dll
+H:\jlx\jlx\obj\Debug\jlx.pdb

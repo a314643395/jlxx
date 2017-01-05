@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>jlx</name>
+    </assembly>
+    <members>
+        <member name="M:jlx.gin.OnKey(System.String,System.String)">
+            <summary>
+            加密
+            </summary>
+            <param name="text">加密的字符串</param>
+            <param name="encryptKey">秘钥</param>
+            <returns>返回值</returns>
+        </member>
+        <member name="M:jlx.gin.OffKey(System.String,System.String)">
+            <summary>
+            解密
+            </summary>
+            <param name="text">加密后的字符串</param>
+            <param name="decryptKey">秘钥</param>
+            <returns>返回值</returns>
+        </member>
+        <member name="T:jlx.GetIpAddress">
+            <summary>
+            获取IP和地址类
+            </summary>
+        </member>
+        <member name="M:jlx.GetIpAddress.GetIP">
+            <summary>
+            获取IP地址
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:jlx.GetIpAddress.GetAddress(System.String)">
+            <summary>
+            获取对应物理地址
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:jlx.timer">
+            <summary>
+            获取时间
+            </summary>
+        </member>
+        <member name="M:jlx.timer.GetBeiJingTime">
+            <summary>
+            获取北京时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:jlx.OpenIni">
+            <summary>
+            INI文件操作函数
+            </summary>
+        </member>
+        <member name="M:jlx.OpenIni.inspect(System.String)">
+            <summary>
+            检查文件是否存在，不存在就创建该配置文件
+            </summary>
+            <param name="FileName">文件名</param>
+        </member>
+        <member name="M:jlx.OpenIni.ReadIniData(System.String,System.String,System.String,System.String)">
+            <summary>
+            读取INI文件内容
+            </summary>
+            <param name="Section">节点</param>
+            <param name="Key">字段</param>
+            <param name="NoText">字段值</param>
+            <param name="iniFilePath">文件地址</param>
+            <returns></returns>
+        </member>
+        <member name="M:jlx.OpenIni.WriteIniData(System.String,System.String,System.String,System.String)">
+            <summary>
+            写INI文件
+            </summary>
+            <param name="Section">节</param>
+            <param name="Key">字段</param>
+            <param name="Value">字段值</param>
+            <param name="iniFilePath">地址</param>
+            <returns></returns>
+        </member>
+        <member name="T:jlx.data">
+            <summary>
+            数据库连接
+            </summary>
+        </member>
+        <member name="F:jlx.data.source">
+            <summary>
+            数据库连接
+            </summary>
+            <param name="source">服务器地址</param>
+            <param name="database">数据库名</param>
+            <param name="id">用户名</param>
+            <param name="pwd">密码</param>
+            <returns></returns>
+        </member>
+        <member name="T:jlx.SqlHelper">
+            <summary>
+            SQL类
+            </summary>
+        </member>
+        <member name="M:jlx.SqlHelper.ExecuteNonQuery(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            执行SQL语句 并返回受影响行数
+            </summary>
+            <param name="sql">SQL语句</param>
+            <param name="parameters">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:jlx.ChineseToPinYin.ToPinYin(System.String)">
+              <summary> 
+              汉字转拼音 
+              </summary> 
+              <param   name="txt"> 需要转换的汉字 </param> 
+              <returns> 返回汉字对应的拼音 </returns> 
+        </member>
+        <member name="T:jlx.HardwareInfo">
+            <summary> 
+            HardwareInfo 的摘要说明。 
+            </summary> 
+        </member>
+        <member name="M:jlx.HardwareInfo.GetHostName">
+            <summary>
+            取机器名 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:jlx.HardwareInfo.GetCpuID">
+            <summary>
+            取CPU编号 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:jlx.HardwareInfo.GetHardDiskID">
+            <summary>
+            取第一块硬盘编号 
+            </summary>
+            <returns>硬盘编号</returns>
+        </member>
+        <member name="M:jlx.HardwareInfo.GetMacAddress">
+            <summary>
+            取Mac地址 
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dotfuscatorMap SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscatorMap_v1.2.dtd">
+<dotfuscatorMap version="1.1">
+    <header>
+        <timestamp>2015-12-07T19:32:30</timestamp>
+        <product version="5.5.4521.29298" user="未注册 " serial="000-00-000-391">Dotfuscator and Analytics Community Edition</product>
+    </header>
+    <mapping>
+        <module>
+            <name>jlx.dll</name>
+            <type>
+                <name>&lt;PrivateImplementationDetails&gt;{E2E9BBF4-C20A-4B43-8CA5-23936C288928}</name>
+                <newname>a</newname>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>int64</signature>
+                        <name>$$method0x6000017-1</name>
+                        <newname>a</newname>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>jlx.ChineseToPinYin</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.cctor</name>
+                    </method>
+                    <method>
+                        <signature>string(string)</signature>
+                        <name>ToPinYin</name>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>System.Collections.Generic.Dictionary`2&lt;int32,string&gt;</signature>
+                        <name>CodeCollections</name>
+                        <newname>a</newname>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>jlx.data</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>bool(string, string, string, string)</signature>
+                        <name>SqlConnect</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>jlx.gin</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.cctor</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>string(string, string)</signature>
+                        <name>OffKey</name>
+                    </method>
+                    <method>
+                        <signature>string(string, string)</signature>
+                        <name>OnKey</name>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>unsigned int8[]</signature>
+                        <name>Keys</name>
+                        <newname>a</newname>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>jlx.HardwareInfo</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>string()</signature>
+                        <name>GetCpuID</name>
+                    </method>
+                    <method>
+                        <signature>string()</signature>
+                        <name>GetHardDiskID</name>
+                    </method>
+                    <method>
+                        <signature>string()</signature>
+                        <name>GetHostName</name>
+                    </method>
+                    <method>
+                        <signature>string()</signature>
+                        <name>GetMacAddress</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>jlx.HardwareInfo/ADAPTER_STATUS</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>unsigned int8[]</signature>
+                        <name>adapter_address</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int8</signature>
+                        <name>adapter_type</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>duration</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>free_ncbs</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>frmr_recv</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>frmr_xmit</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>iframe_recv_err</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>iframe_xmit_err</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>max_cfg_ncbs</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>max_cfg_sess</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>max_dgram_size</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>max_ncbs</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>max_sess</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>max_sess_pkt_size</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>name_count</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>pending_sess</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>recv_buff_unavail</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>recv_success</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int8</signature>
+                        <name>reserved0</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>reserved1</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int8</signature>
+                        <name>rev_major</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int8</signature>
+                        <name>rev_minor</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>t1_timeouts</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>ti_timeouts</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>xmit_aborts</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>xmit_buf_unavail</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>xmit_success</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>jlx.HardwareInfo/ASTAT</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>jlx.HardwareInfo/ADAPTER_STATUS</signature>
+                        <name>adapt</name>
+                    </field>
+                    <field>
+                        <signature>jlx.HardwareInfo/NAME_BUFFER[]</signature>
+                        <name>NameBuff</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>jlx.HardwareInfo/LANA_ENUM</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>unsigned int8[]</signature>
+                        <name>lana</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int8</signature>
+                        <name>length</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>jlx.HardwareInfo/NAME_BUFFER</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>unsigned int8[]</signature>
+                        <name>name</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int8</signature>
+                        <name>name_flags</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int8</signature>
+                        <name>name_num</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>jlx.HardwareInfo/NCB</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>native int</signature>
+                        <name>ncb_buffer</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int8[]</signature>
+                        <name>ncb_callname</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int8</signature>
+                        <name>ncb_cmd_cplt</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int8</signature>
+                        <name>ncb_command</name>
+                    </field>
+                    <field>
+                        <signature>native int</signature>
+                        <name>ncb_event</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int8</signature>
+                        <name>ncb_lana_num</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>ncb_length</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int8</signature>
+                        <name>ncb_lsn</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int8[]</signature>
+                        <name>ncb_name</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int8</signature>
+                        <name>ncb_num</name>
+                    </field>
+                    <field>
+                        <signature>native int</signature>
+                        <name>ncb_post</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int8[]</signature>
+                        <name>ncb_reserve</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int8</signature>
+                        <name>ncb_retcode</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int8</signature>
+                        <name>ncb_rto</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int8</signature>
+                        <name>ncb_sto</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>jlx.HardwareInfo/NCBCONST</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>jlx.HardwareInfo/NCBCONST</signature>
+                        <name>MAX_LANA</name>
+                    </field>
+                    <field>
+                        <signature>jlx.HardwareInfo/NCBCONST</signature>
+                        <name>NCBASTAT</name>
+                    </field>
+                    <field>
+                        <signature>jlx.HardwareInfo/NCBCONST</signature>
+                        <name>NCBENUM</name>
+                    </field>
+                    <field>
+                        <signature>jlx.HardwareInfo/NCBCONST</signature>
+                        <name>NCBNAMSZ</name>
+                    </field>
+                    <field>
+                        <signature>jlx.HardwareInfo/NCBCONST</signature>
+                        <name>NCBRESET</name>
+                    </field>
+                    <field>
+                        <signature>jlx.HardwareInfo/NCBCONST</signature>
+                        <name>NRC_GOODRET</name>
+                    </field>
+                    <field>
+                        <signature>jlx.HardwareInfo/NCBCONST</signature>
+                        <name>NUM_NAMEBUF</name>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>value__</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>jlx.HardwareInfo/Win32API</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>char(jlx.HardwareInfo/NCB&amp;)</signature>
+                        <name>Netbios</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>jlx.OpenIni</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>int64(string, string, string, System.Text.StringBuilder, int32, string)</signature>
+                        <name>GetPrivateProfileString</name>
+                    </method>
+                    <method>
+                        <signature>void(string)</signature>
+                        <name>inspect</name>
+                    </method>
+                    <method>
+                        <signature>string(string, string, string, string)</signature>
+                        <name>ReadIniData</name>
+                    </method>
+                    <method>
+                        <signature>bool(string, string, string, string)</signature>
+                        <name>WriteIniData</name>
+                    </method>
+                    <method>
+                        <signature>int64(string, string, string, string)</signature>
+                        <name>WritePrivateProfileString</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>jlx.timer</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>System.DateTime()</signature>
+                        <name>GetBeiJingTime</name>
+                    </method>
+                    <method>
+                        <signature>string(string, string)</signature>
+                        <name>GetRegexStr</name>
+                        <newname>a</newname>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+        </module>
+    </mapping>
+    <statistics>
+        <statisticline>
+            <description>Total Classes</description>
+            <statistic>14</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Methods</description>
+            <statistic>24</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Fields</description>
+            <statistic>60</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Properties</description>
+            <statistic>0</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Events</description>
+            <statistic>0</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Classes Renamed</description>
+            <statistic>1</statistic>
+            <statistic>7.14%</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Methods Renamed</description>
+            <statistic>1</statistic>
+            <statistic>4.17%</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Fields Renamed</description>
+            <statistic>3</statistic>
+            <statistic>5.00%</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Properties Renamed</description>
+            <statistic>0</statistic>
+            <statistic>0.00%</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Events Renamed</description>
+            <statistic>0</statistic>
+            <statistic>0.00%</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'a'</description>
+            <statistic>1</statistic>
+            <statistic>4.17%</statistic>
+        </statisticline>
+    </statistics>
+</dotfuscatorMap>
